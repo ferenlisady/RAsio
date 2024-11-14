@@ -1,0 +1,147 @@
+﻿body {
+    background: url('../Asset/Digital_art_mountain.jpg') center center fixed;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 100vh;
+    overflow-x: hidden; 
+}
+
+.grid-item-style {
+    width: auto;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 8px;
+}
+
+.grid-header-style {
+    color: midnightblue;
+    padding-left: 0;
+    padding: 6px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.grid-button {
+    display: block;
+    padding: 6px 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.outer-container {
+    background-color: #333; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: auto; 
+    max-width: 500px;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.form-label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    margin-right: 10px;
+    font-weight: 500;
+    width: 200px;
+    color: #fff;
+}
+
+.form-textbox {
+    display: block;
+    padding: 8px;
+    width: 200px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.form-errorMsg {
+    color: red;
+    overflow: hidden;
+    white-space: pre-wrap;
+    max-width: 500px;
+}
+
+.form-button {
+    display: block;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-textarea {
+    resize: none; 
+    width: 30%; 
+    height: auto; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    border-radius: 4px;
+}
+
+.form-radiobutton {
+    margin-bottom: 10px;
+}
+
+    .form-radiobutton input[type="radio"] {
+        display: none; 
+    }
+
+    .form-radiobutton label {
+        cursor: pointer;
+        padding-left: 25px; 
+        line-height: 24px; 
+        display: block;
+        position: relative;
+        color: #fff;
+    }
+
+        .form-radiobutton label:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 4px;
+            width: 16px;
+            height: 16px;
+            border: 1px solid #ccc;
+            border-radius: 50%; 
+            background-color: #fff;
+        }
+
+    .form-radiobutton input[type="radio"]:checked + label:before {
+        background-color: #4CAF50;
+        border-color: #4CAF50;
+    }
+
+
+.form-date-input {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f8f9fa; 
+    color: #495057; 
+}
+
+    .form-date-input:focus {
+        border-color: #4CAF50; 
+        outline: none;
+        box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); 
+    }
